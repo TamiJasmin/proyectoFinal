@@ -1,15 +1,8 @@
 *{
   box-sizing: border-box;
 }
-.pestañas{
-  font-style: italic;
-  display: flex;
-  justify-content:center;
-  border-color: black;
-  background-color: green;
-}
-}
-.color {
+
+.color{
   background-color: #FFD323;
 }
 #body-color{
