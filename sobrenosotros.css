@@ -2,6 +2,46 @@
   box-sizing: border-box;
 }
 
-#body-color{
+body{
   background-image:url(https://i.pinimg.com/originals/1d/fb/56/1dfb56cb282bbb82eb7a9280b4f414b5.jpg);
+}
+
+h3{
+  font-family: sans-serif;
+  text-align: center;
+  font-family: monospace;
+  border-style: solid yellow;
+  text-shadow: 1px 1px #353f9b;
+  font-size: 20px;
+
+}
+
+p{
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align-last: center;
+  letter-spacing: inherit;
+}
+
+footer{
+font-family: sans-serif;
+text-align: center;
+font-size: 12px;
+}
+
+.bienvenida{
+font-weight: bold;
+}
+
+.menu{
+  display: inline-block;
+  font-size: 15px;
+  padding: 20px;
+  align-text:center;
+  font-style:normal;
+  font-family: monospace;
+  border-style: solid yellow;
+  text-shadow: 1px 1px #353f9b;
+  list-style:none;
+  display: inline-block;
 }
