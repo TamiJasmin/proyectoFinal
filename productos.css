@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image:url(https://i.pinimg.com/originals/1d/fb/56/1dfb56cb282bbb82eb7a9280b4f414b5.jpg);
+}
+
+h5{
+  font-family: sans-serif;
+  text-align: center;
+  font-family: monospace;
+  border-style: solid yellow;
+  text-shadow: 1px 1px #353f9b;
+  font-size: 20px;
+
+}
+
+p{
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align-last: center;
+  letter-spacing: inherit;
+}
+
+.menu{
+  display: inline-block
+}
+.menu{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.menu li{
+  display: inline-block;
+  font-size: 15px;
+  padding: 20px;
+  align-items:center;
+  font-style:normal;
+  font-family: monospace;
+  border-style: solid yellow;
+  text-shadow: 1px 1px #353f9b;
+}
+
+ footer{
+  font-family: sans-serif;
+  }
+
+.parrafo{
+    font-weight: bold;
+}
+
+.libros{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
