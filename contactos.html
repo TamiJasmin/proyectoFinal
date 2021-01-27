@@ -2,26 +2,58 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <link rel="stylesheet" href="./contactos.css">
+    <title>Conectando Letras</title>
+
   </head>
-  <body>
-    <h3>Cotactos</h3>
-    <nav>
-      <ul class="menu">
-        <li><a href=”#”>Inicio &#127968;</a></li>
-        <li><a href=”#”>Sobre nosotros &#128172;</a></li>
-        <li><a href=”#”>Servicios &#128187;</a></li>
-        <li><a href=”#”>Productos &#128188;</a></li>
-        <li><a href=”#”>Contacto &#x2709;&#xfe0f;</a></li>
-     </ul>
-    </nav>
-    <p>Podes contactarte ingresando a nuestra página de Facebook "Conectando Letras" y a nuestros telefónos que aparecen a continuación:
-      Editorial Fono: 4621-6402
+<body>
 
-      Editorial Asistencia: 1531820518
-      
-      Editorial Presupuestos: 1550557831
+  <nav>
+    <div class="pill-nav">
+ <a class="active" href="./potreroDigital_proyecto_grupo4_index.html">Inicio</a>
+ <a href="./sobrenosotros.html">Sobre Nosotros</a>
+ <a href="./servicios.html">Servicios</a>
+ <a href="./contactos.html">Contacto</a>
+</div>
+   </nav>
 
-    </p>
-  </body>
-</html>
+<h4>Contactanos</h4>
+
+<p>Gracias por visitar nuestra página, si deseas ponerte en contacto, no dudes en rellenar el siguiente formulario</p> <p>y nos pondremos en contacto a la brevedad.</p>
+<p>También puedes contactarnos por Facebook como "Conectando Letras"</p>
+
+<div class="container">
+ <form action="action_page.php">
+
+   <label for="fname">Nombre</label>
+   <input type="text" id="fname" name="firstname" placeholder="Tu Nombre..">
+
+   <label for="lname">Apellido</label>
+   <input type="text" id="lname" name="lastname" placeholder="Tu Apellido..">
+
+   <label for="country">País</label>
+   <select id="country" name="country">
+     <option value="Argentina">Argentina</option>
+     <option value="Chile">Chile</option>
+     <option value="Uruguay">Uruguay</option>
+   </select>
+
+  <label for="femail">Email</label>
+  <input type="text" id="femail" name="email" placeholder="Tu Email..">
+
+  <label for="fname">Teléfono</label>
+  <input type="text" id="ftele" name="telefono" placeholder="Tu Teléfono..">
+
+
+   <label for="subject">Mensaje</label>
+   <textarea id="subject" name="subject" placeholder="Dejanos tu mensaje..." style="height:200px"></textarea>
+
+   <input type="submit" value="Submit">
+
+ </form>
+</div>
+
+<footer> Todos los Derechos Reservados ©
+Autora: Tamara Jasmín Verón | Marcelo Ortiz </footer>
+</body>

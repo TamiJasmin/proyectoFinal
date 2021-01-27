@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image:url(https://i.pinimg.com/originals/1d/fb/56/1dfb56cb282bbb82eb7a9280b4f414b5.jpg);
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/trees.png);
 }
 
 h3{
@@ -13,7 +13,6 @@ h3{
   border-style: solid yellow;
   text-shadow: 1px 1px #353f9b;
   font-size: 20px;
-
 }
 
 p{
@@ -33,15 +32,57 @@ font-size: 12px;
 font-weight: bold;
 }
 
-.menu{
+nav{
+display: flex;
+justify-content: center;
+}
+
+.pill-nav a {
   display: inline-block;
-  font-size: 15px;
-  padding: 20px;
-  align-text:center;
-  font-style:normal;
-  font-family: monospace;
-  border-style: solid yellow;
-  text-shadow: 1px 1px #353f9b;
-  list-style:none;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.pill-nav a:hover {
+  background-color: #7eb1e4;
+  color: black;
+}
+
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: black;
+}
+footer{
+  display: flex;
+  justify-content: flex-start;
+
+}
+a:hover{
+  background-color: orange;
+}
+}
+.col{
+  float: right;
+  height: 50px;
   display: inline-block;
+  vertical-align: top;
+  background-color: black;
+  border-radius: 20px;
+  padding: 5;
+  margin: 5;
+  border-image: solid;
+  filter: blur(5px);
+
+}
+.row{
+  text-align: center;
+  filter: drop-shadow(16px 16px 20px #353f9b);
+  filter: brightness(0,4);
+  animation-fill-mode: forwards
+  animation-duration: 3s;
 }

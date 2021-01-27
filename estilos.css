@@ -6,13 +6,15 @@
   background-color: #FFD323;
 }
 #body-color{
-  background-image:url(https://i.pinimg.com/originals/1d/fb/56/1dfb56cb282bbb82eb7a9280b4f414b5.jpg);
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/trees.png);
+
 }
 
 nav{
 display: flex;
 justify-content: center;
 }
+
 .imagen2{
   display:block;
   margin:auto;
@@ -22,8 +24,9 @@ justify-content: center;
 .imagenes{
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
-.menu{
+/*  .menu{
   display: inline-block
 }
 .menu {
@@ -42,13 +45,37 @@ justify-content: center;
   font-family: monospace;
   border-style: solid yellow;
   text-shadow: 1px 1px #353f9b;
+} */
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: #7eb1e4;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: black;
 }
 footer{
   display: flex;
   justify-content: flex-start;
-
+  font-family: sans-serif;
 }
-a:hover{
+ a:hover{
   background-color: orange;
 }
 }
@@ -57,7 +84,7 @@ a:hover{
   height: 50px;
   display: inline-block;
   vertical-align: top;
-  background-color: lightblue;
+  background-color: black;
   border-radius: 20px;
   padding: 5;
   margin: 5;
@@ -90,7 +117,7 @@ h4{
   font-style: oblique;
   margin-bottom: 20px;
   font-size: 150%;
-  text-shadow: 1px 2px #999;
   filter: brightness(0.4);
   text-align: center;
+  color: orange;
 }
